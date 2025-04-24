@@ -1,0 +1,108 @@
+{D:/Advanced Computer Architecture/BTL GK/Single/pc_mux.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/pc_mux.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pc_mux
+
+Top level modules:
+	pc_mux
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/Branch_Adder.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/Branch_Adder.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Branch_Adder
+
+Top level modules:
+	Branch_Adder
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/Program_Counter.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/Program_Counter.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Program_Counter
+
+Top level modules:
+	Program_Counter
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/pc_adder.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/pc_adder.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pc_adder
+
+Top level modules:
+	pc_adder
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/ALU.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/ALU.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/Data_Memory.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/Data_Memory.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/MUX2to1_DataMemory.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/MUX2to1_DataMemory.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX2to1_DataMemory
+
+Top level modules:
+	MUX2to1_DataMemory
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/Register_File.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/Register_File.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/main_control_unit.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/main_control_unit.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module main_control_unit
+
+Top level modules:
+	main_control_unit
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/immediate_generator.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/immediate_generator.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module immediate_generator
+
+Top level modules:
+	immediate_generator
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/RISCV_ToP_Tb.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/RISCV_ToP_Tb.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module RISCV_ToP_Tb
+
+Top level modules:
+	RISCV_ToP_Tb
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/ALU_TB.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/ALU_TB.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ALU_TB
+
+Top level modules:
+	ALU_TB
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/RISCV_Top.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/RISCV_Top.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module RISCV_Top
+
+Top level modules:
+	RISCV_Top
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/ALU_Control.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/ALU_Control.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ALU_Control
+-- Compiling module MUX2to1
+
+Top level modules:
+	ALU_Control
+	MUX2to1
+
+} {} {}} {D:/Advanced Computer Architecture/BTL GK/Single/Instruction_Memory.v} {1 {vlog -work work -vopt -stats=none {D:/Advanced Computer Architecture/BTL GK/Single/Instruction_Memory.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
+
+} {} {}}

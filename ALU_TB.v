@@ -1,0 +1,67 @@
+
+module ALU_TB;
+
+  // Khai báo các bi?n test
+  reg [31:0] A, B;
+  reg [3:0] ALUcontrol_In;
+  wire [31:0] Result;
+  wire Zero;
+
+  // G?i module ALU
+  ALU uut (
+    .A(A),
+    .B(B),
+    .ALUcontrol_In(ALUcontrol_In),
+    .Result(Result),
+    .Zero(Zero)
+  );
+
+  initial begin
+    $display("=== ALU Test Start ===");
+
+    // Test ADD
+    A = 10; B = 20; ALUcontrol_In = 4'b0000;
+    #10 $display("ADD: %d + %d = %d (Zero=%b)", A, B, Result, Zero);
+
+    // Test SUB
+    A = 25; B = 25; ALUcontrol_In = 4'b0001;
+    #10 $display("SUB: %d - %d = %d (Zero=%b)", A, B, Result, Zero);
+
+    // Test AND
+    A = 32'hF0F0F0F0; B = 32'h0F0F0F0F; ALUcontrol_In = 4'b0010;
+    #10 $display("AND: %h & %h = %h (Zero=%b)", A, B, Result, Zero);
+
+    // Test OR
+    A = 32'hAAAA5555; B = 32'h5555AAAA; ALUcontrol_In = 4'b0011;
+    #10 $display("OR: %h | %h = %h (Zero=%b)", A, B, Result, Zero);
+
+    // Test XOR
+    A = 32'hFFFFFFFF; B = 32'h0000FFFF; ALUcontrol_In = 4'b0100;
+    #10 $display("XOR: %h ^ %h = %h (Zero=%b)", A, B, Result, Zero);
+
+    // Test SLL
+    A = 32'h00000001; B = 5; ALUcontrol_In = 4'b0101;
+    #10 $display("SLL: %h << %d = %h (Zero=%b)", A, B[4:0], Result, Zero);
+
+    // Test SRL
+    A = 32'h80000000; B = 4; ALUcontrol_In = 4'b0110;
+    #10 $display("SRL: %h >> %d = %h (Zero=%b)", A, B[4:0], Result, Zero);
+
+    // Test SRA
+    A = -32'sd8; B = 2; ALUcontrol_In = 4'b0111;
+    #10 $display("SRA: %d >>> %d = %d (Zero=%b)", A, B[4:0], Result, Zero);
+
+    // Test SLT
+    A = -10; B = 5; ALUcontrol_In = 4'b1000;
+    #10 $display("SLT: %d < %d = %d (Zero=%b)", A, B, Result, Zero);
+
+    // Test SLT khi A > B
+    A = 20; B = 10; ALUcontrol_In = 4'b1000;
+    #10 $display("SLT: %d < %d = %d (Zero=%b)", A, B, Result, Zero);
+
+    $display("=== ALU Test Complete ===");
+    $finish;
+  end
+
+endmodule
+
