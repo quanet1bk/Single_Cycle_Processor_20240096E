@@ -10,7 +10,7 @@ module RISCV_Top(
  //....................................................................//
  
  // Program Counter
- program_counter PC(.clk(clk),.rst(rst),.pc_in(pc_wire),.pc_out(pc_out_wire));
+ Program_Counter PC(.clk(clk),.rst(rst),.pc_in(pc_wire),.pc_out(pc_out_wire));
  // PC Adder
  pc_adder PC_Adder(.pc_in(pc_out_wire),.pc_next(pc_next_wire));
  // PC Mux
