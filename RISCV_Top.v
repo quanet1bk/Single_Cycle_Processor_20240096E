@@ -1,4 +1,4 @@
-module RISCV_Top(
+module RISCV_Single_Cycle(
  		  input clk, rst
  		); 
  //....................................................................//
